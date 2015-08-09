@@ -425,3 +425,46 @@ td,
 th {
   padding: 0;
 }
+
+/* Common styles */
+
+body {
+  background-color: Grey;
+}
+
+/* Navbar styles */
+
+
+#top-navigation {
+  background: white;
+}
+
+#top-navigation .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.content .menu-items {
+    list-style: none;
+    margin: -4em;
+    padding: 1.9em 7em;
+    
+}
+
+/*.menu-items li {
+  display: inline;
+}*/
+
+.menu-items a {
+  padding: 0 1em;
+  color: Grey;
+  text-decoration: none;
+  float: right;
+}
+
+
+
+
+
+
