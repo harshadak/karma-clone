@@ -436,7 +436,7 @@ th {
 /* Common styles */
 
 body {
-  background-color: Grey;
+  background-color: white;
 }
 
 /* Navbar styles */
@@ -488,7 +488,7 @@ body {
 .image {
   position: absolute;
   width: 1450px;
-  height: 650px;
+  height: 670px;
 }
 
 h1 {
@@ -518,6 +518,29 @@ h2 {
   top: 300px; 
   left: 0; 
   width: 100%;
+}
+
+.buttons {
+  width: 9.6em;
+  height: 3.5em;
+  background: #FE642E;
+  padding-top: 1em;
+  padding-right: 0.5em;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0.25em;
+  position: absolute; 
+  top: 400px;
+}
+
+.buttons a {
+  color: white;
+  font-size: 1.1em;
+}
+
+.buttons:hover, a:hover {
+  background: #FF4000;
+  cursor: pointer;
 }
 
 
