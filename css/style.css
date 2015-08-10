@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -443,6 +450,7 @@ body {
   width: 970px;
   height: 70px;
   margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 .content .menu-items {
@@ -454,6 +462,11 @@ body {
 /*.menu-items li {
   display: inline;
 }*/
+
+#top-navigation .menu-items .active {
+  color: #6E6E6E;
+  font-weight: bold;
+}
 
 .menu-items a {
   padding: 0 1em;
