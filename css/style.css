@@ -449,7 +449,6 @@ body {
     list-style: none;
     margin: -4em;
     padding: 1.9em 7em;
-    
 }
 
 /*.menu-items li {
@@ -458,9 +457,17 @@ body {
 
 .menu-items a {
   padding: 0 1em;
-  color: Grey;
   text-decoration: none;
   float: right;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1em; 
+  font-weight: lighter;
+  color: #848484; 
+  letter-spacing: 0.03em;
+}
+
+.menu-items a:hover {
+  color: #353738;
 }
 
 
