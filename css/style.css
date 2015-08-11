@@ -71,6 +71,7 @@ body {
 
 .top-navigation .content {
   height: 4.3rem;
+  width: 60%;
 }
 
 .top-navigation .links {
@@ -78,12 +79,10 @@ body {
   color: #A4A4A4;
   font-size: 1.04rem;
   margin-top: 1.7rem;
-  margin-right: 17.25rem;
 }
 
 .top-navigation .logo {
   padding-top: 1rem;
-  margin-left: 17.25rem;
 }
 
 .top-navigation .links li {
@@ -103,37 +102,12 @@ body {
 
 
 
-/*.content .menu-items {
-    list-style: none;
-    margin: -4em;
-    padding: 1.9em 7em;
-}
-
-.menu-items li {
-  display: inline;
-}*/
-
-/*.top-navigation .menu-items .active {
-  color: #6E6E6E;
-  font-weight: bold;
-}
-
-.menu-items a {
-  padding: 0 1em;
-  text-decoration: none;
-  float: left;
-  font-family: 'Roboto', sans-serif; 
-  font-size: 1em; 
-  font-weight: lighter;
-  color: #848484; 
-  letter-spacing: 0.03em;
-}
-
-.menu-items a:hover {
-  color: #353738;
-}
 
 /* Background image styles */
+
+.introduction {
+  background-image: url('../images/background.jpg');
+}
 
 /*.content {
   margin-left: auto;
