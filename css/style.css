@@ -48,7 +48,7 @@ body {
 
 
 
-
+/*------------------- My Code ----------------------*/
 
 
 /* Common styles */
@@ -59,6 +59,8 @@ body {
   padding: 0 0.938rem;
   /*-webkit-font-smoothing: antialiased;*/
 }
+
+
 
 /* Navbar styles */
 
@@ -114,6 +116,10 @@ body {
   overflow: auto;
 }
 
+.introduction .content {
+  width: 60%;
+}
+
 .introduction h1,
 .introduction h2 {
     color: white;
@@ -131,68 +137,63 @@ body {
   margin-top: 1rem;
 }
 
-.introduction .buttons button {
+.introduction .buttons {
     color: white;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 9.6em;
-    height: 3.5em;
-    background: #FE642E;
-    padding: 1em 0.5em;
-    border-radius: 0.25em;
-    font-size: 0.9rem;
+    margin-top: 1.563rem;
 }
 
-/*
-
-.buttons {
-  width: 9.6em;
-  height: 3.5em;
+button {
+  width: 9.688rem;
+  height: 3.4em;
+  border-style: none;
+  color: white;
+  text-align: center;
   background: #FE642E;
   padding: 1em 0.5em;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 0.25em;
-  position: absolute; 
-  bottom: 210px;
-}*/
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+
+
 
 /* Cases CSS */
 
 .cases {
-  height: 40rem;
+  overflow: hidden;
   padding-bottom: 5rem;
 }
 
 .cases .content {
-  text-align: center;
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+    width: 60%;
 }
 
-.cases h1 {
-  padding-top: 8.4rem;
+
+.cases h2 {
+  padding-top: 0.85rem;
   padding-bottom: 3.25rem;
   font-size: 2.75rem;
   font-weight: 300;
 }
 
-.cases .devices {
-  width: 70%;
-  margin-left: 18.6rem;
-}
-
 .cases .devices li {
   float: left;
-  padding: 0 1rem;
+  width: 33.3333333%;
 }
+
 
 .cases h3 {
   font-weight: 400;
   font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
 }
-
 
 
 
